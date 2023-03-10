@@ -3,7 +3,7 @@ package es.jcoder.microjava.entities;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "post")
+@Table(name = "POSTS")
 public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
